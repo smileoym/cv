@@ -1,0 +1,34 @@
+.home {
+  //   display: flex;
+  //   justify-content: space-between;
+  .border-line {
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .anceta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .user-name {
+      font-family: Gilroy-Bold;
+      font-size: 47.3392px;
+      line-height: 59px;
+      color: #070707;
+    }
+    .user-information {
+      font-family: Gilroy-Medium;
+      font-size: 18px;
+      line-height: 22px;
+      color: #070707;
+    }
+    .language {
+      font-family: Gilroy-Bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #828282;
+      transform: rotate(-90deg);
+    }
+  }
+}

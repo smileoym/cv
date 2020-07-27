@@ -1,0 +1,16 @@
+.type-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+
+  li:first-child {
+    color: #070707;
+  }
+  li {
+    list-style-type: none;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+  }
+}
