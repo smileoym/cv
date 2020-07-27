@@ -2,6 +2,7 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import Menu from "./components/Menu/Menu";
+import BorderLine from "./components/BorderLine/BorderLine";
 import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
@@ -26,6 +27,7 @@ function App() {
         </a> */}
       </header>
       <Menu />
+      <BorderLine />
       <Home />
       <AboutMe />
       <Skills />
