@@ -1,0 +1,21 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 506px;
+  background: #f6f6f6;
+  h1 {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+  }
+  p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+  }
+}
