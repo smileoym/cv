@@ -4,7 +4,7 @@ import "./scss/style.scss";
 const AboutMe = () => {
   return (
     <div className="about-me">
-      <h1>About me</h1>
+      <h1 id="about-me">About me</h1>
       <p>
         Hi, I'm Denis – UX/UI designer from Minsk. <br />
         I'm interested in design and everything connected with it.

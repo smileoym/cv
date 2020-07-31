@@ -8,8 +8,9 @@ import figma from "./img/figma.svg";
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>Skills</h1>
+      <h1 id="skills">Skills</h1>
       <p>I work in such programs as</p>
+
       <div className="programs">
         <img src={photoshop} className="photoshop" alt="photoshop" />
         <img src={illustrator} className="illustrator" alt="illustrator" />

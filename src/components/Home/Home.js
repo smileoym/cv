@@ -5,7 +5,7 @@ import logo from "./img/valentin-salja.svg";
 const Home = () => {
   return (
     <div className="home">
-      <div className="user-name">
+      <div id="home" className="user-name">
         Denis
         <br /> Novik
       </div>
